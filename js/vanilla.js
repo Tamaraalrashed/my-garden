@@ -43,6 +43,19 @@ function renderTable() {
     tableFlowers.innerHTML='';
     const tableRow1=document.createElement('tr');
     tableFlowers.appendChild(tableRow1);
+    const tableh1=document.createElement('th');
+    tableRow1.appendChild(tableh1);
+    tableh1.textContent='';
+    const tableh2=document.createElement('th');
+    tableRow1.appendChild(tableh2);
+    tableh2.textContent=`Flower name`;
+    const tableh3=document.createElement('th');
+    tableRow1.appendChild(tableh3);
+    tableh3.textContent=`Flower category`;
+    const tableh4=document.createElement('th');
+    tableRow1.appendChild(tableh4);
+    tableh4.textContent=`Season`;
+
 
     for (let i = 0; i< flowersArray.length; i++) {
         const tableRow=document.createElement('tr');

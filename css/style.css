@@ -52,15 +52,34 @@ input, select{
 fieldset{
     border: 2px dashed #ccc;  
     border-radius: 4px;
-    padding: 5px 5px;
+    margin: 10px;
+    padding: 10px 10px;
     font-family: 'Roboto', sans-serif;
 }
 
 table{
     font-family: 'Roboto', sans-serif;
     width: 100%;
+    text-align: center;
+    padding: 5px;
 }
 
-table.even{
-    background-color: ;
+tr :nth-child(even) {
+    background-color: #ffd3de;
 }
+tr :nth-child(odd) {
+    background-color: #f6b8d1;
+}
+
+#save{
+    background-color: #609c4d;
+    border: none;
+    padding: 5px;
+}
+
+#clear{
+    background-color: #ac0d0d;
+    border: none;
+    padding: 5px;
+}
+
